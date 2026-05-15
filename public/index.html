@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WeatherLens — Real-Time Weather App</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌤</text></svg>">
+</head>
+<body>
+
+  <!-- Animated background -->
+  <div class="bg-canvas">
+    <div class="bg-star-field"></div>
+  </div>
+
+  <div class="container">
+
+    <!-- Header -->
+    <header>
+      <div class="brand-tag">✦ Internship Task 1 — API Integration</div>
+      <h1>WeatherLens</h1>
+      <p>Real-time weather data, beautifully presented.</p>
+    </header>
+
+    <!-- Search -->
+    <section class="search-section">
+      <div class="search-wrap">
+        <input
+          id="search-input"
+          class="search-input"
+          type="text"
+          placeholder="Search any city… e.g. Tokyo, Paris"
+          autocomplete="off"
+        />
+        <button class="geo-btn" id="geo-btn" title="Use my location">📍</button>
+        <button class="search-btn" id="search-btn">Search</button>
+      </div>
+
+      <div class="quick-cities">
+        <button class="city-chip" data-city="London">London</button>
+        <button class="city-chip" data-city="New York">New York</button>
+        <button class="city-chip" data-city="Tokyo">Tokyo</button>
+        <button class="city-chip" data-city="Dubai">Dubai</button>
+        <button class="city-chip" data-city="Sydney">Sydney</button>
+        <button class="city-chip" data-city="Mumbai">Mumbai</button>
+      </div>
+    </section>
+
+    <!-- Weather Output -->
+    <div id="weather-display"></div>
+
+  </div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
