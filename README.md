@@ -1,4 +1,4 @@
-# 🌤 WeatherLens — Internship Task 1: API Integration
+# 🌤 WeatherLens — API Integration
 
 A responsive weather web app built with **Express.js** (backend) and vanilla **HTML/CSS/JS** (frontend), fetching live data from the **OpenWeatherMap API**.
 
